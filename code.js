@@ -3,7 +3,7 @@ function rand() {
 };
     
 
-let num = parseInt(prompt(`Enter a value`));
+let num = parseInt(prompt(`Enter a temperature in Fahrenheit, we'll convert to Celsius!`));
 let temp;
 
 function convertToCelsius(num) {
